@@ -6,8 +6,8 @@ marvel_heros.push(dc_heros) // create array into the array
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]); accessing the nested array
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros);
+const allHeros = marvel_heros.concat(dc_heros) // merges both the arrays
+console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
