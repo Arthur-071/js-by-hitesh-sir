@@ -1,11 +1,11 @@
 let score = "hitesh"
 
-//console.log(typeof score);
-//console.log(typeof(score));
+//console.log(typeof score); //string
+//console.log(typeof(score)); //string
 
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+let valueInNumber = Number(score) // conversion of datatypes takes place
+//console.log(typeof valueInNumber); // number
+//console.log(valueInNumber); //nan
 
 
 // "33" => 33
@@ -25,4 +25,4 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
-// console.log(typeof stringNumber);
+// console.log(typeof stringNumber); // string
