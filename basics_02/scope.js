@@ -53,7 +53,7 @@ function addone(num){
 
 
 
-addTwo(5)  // concept of hoisting , here the function is not accessible
+addTwo(5)  // concept of hoisting , here the function is not accessible due to const 
 const addTwo = function(num){
     return num + 2
 }
